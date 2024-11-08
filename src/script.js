@@ -38,7 +38,7 @@ document.querySelector('button[type="submit"]')
     if (!emailField.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
       return showAndHideErrorMessage()
     }
-    firstNameField.value = ''
+    firstNameld.value = ''
     lastNameField.value = ''
     emailField.value = ''
     textareaField.value = ''
